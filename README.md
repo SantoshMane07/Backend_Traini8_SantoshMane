@@ -4,14 +4,14 @@ This project is an implementation of a Training Center Registry system for Gover
 
 **Features**
 
-**Add Training Center**: Allows the creation of a new training center with the following fields:
-**Center Name**: Required, with a max length of 40 characters.
-**Center Code**: Required, must be exactly 12 alphanumeric characters.
-**Address**: Embedded object with detailed address, city, state, and pincode.
-**Student Capacity**: Optional integer field.
-**Courses Offered**: List of courses that the training center provides.
-**Contact Email**: Optional, validated email field.
-**Contact Phone**: Required, must be exactly 10 digits.
+**Add Training Center**: Allows the creation of a new training center with the following fields:<br>
+**Center Name**: Required, with a max length of 40 characters.<br>
+**Center Code**: Required, must be exactly 12 alphanumeric characters.<br>
+**Address**: Embedded object with detailed address, city, state, and pincode.<br>
+**Student Capacity**: Optional integer field.<br>
+**Courses Offered**: List of courses that the training center provides.<br>
+**Contact Email**: Optional, validated email field.<br>
+**Contact Phone**: Required, must be exactly 10 digits.<br>
 **Automatically captures CreatedOn timestamp.**
 
 **Fetch Training Centers**: Supports fetching all centers, with optional filtering:
