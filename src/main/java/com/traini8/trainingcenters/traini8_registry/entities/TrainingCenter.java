@@ -36,8 +36,10 @@ public class TrainingCenter {
     @CreationTimestamp
     private LocalDateTime createdOn;
 
+    @Column(unique = true)
     private String contactEmail;
 
+    @Column(unique = true)
     private String contactPhone;
 }
 
