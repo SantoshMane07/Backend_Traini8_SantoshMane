@@ -25,7 +25,7 @@ public class TrainingCenter {
 
     private String centerCode;
 
-    @Embedded
+    @OneToOne(cascade = CascadeType.ALL)
     private Address address;
 
     private Integer studentCapacity;
